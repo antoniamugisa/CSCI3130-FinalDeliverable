@@ -1,0 +1,15 @@
+image: node:16
+
+stages:
+  - build
+
+before_script:
+  - npm install
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - build/

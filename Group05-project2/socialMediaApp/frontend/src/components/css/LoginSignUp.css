@@ -1,0 +1,113 @@
+/* LoginSignUp.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+} */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.forgot-password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.authentication-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.authentication-input-group img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+   
+}
+
+.authentication-input-group input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    display: block; /* Ensure the button is a block element */
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+.button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.security-input input {
+    width: 340px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.security-input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}

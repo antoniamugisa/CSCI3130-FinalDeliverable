@@ -1,0 +1,177 @@
+/* .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4200b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3a0099;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+}
+
+.home-button {
+    background-color: #eaeaea;
+    color: #676767;
+    margin-top: 20px;
+} */
+/* Profile.css */
+
+
+
+.profile-container {
+    max-width: 680px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.add-friend-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.delete-friend-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group {
+    display: flex;
+    flex-direction: row; /* Ensure items are in a row */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.input-group label {
+    flex: 1; /* Take up available space */
+    font-size: 1.2em;
+    margin-right: 30px; /* Adjust spacing between label and input */
+    color: #333;
+    text-align: left; /* Align label text to the right */
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+    flex: 2; /* Take up more space than label */
+    width: calc(100% - 20px); /* Adjusted to accommodate uniform spacing */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.input-group select {
+    width: 100%;
+}
+
+.home-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+
+.home-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .input-group {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: stretch; /* Stretch items to full width */
+    }
+
+    .input-group label {
+        text-align: left; /* Reset text alignment for labels */
+        margin-right: 0; /* Reset margin for labels */
+        margin-bottom: 5px; /* Add spacing between stacked labels */
+    }
+
+    .input-group input,
+    .input-group textarea,
+    .input-group select {
+        width: 100%; /* Ensure inputs take full width on smaller screens */
+    }
+}
